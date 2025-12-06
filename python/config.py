@@ -6,7 +6,7 @@ WORKING_DIR = os.path.dirname(os.path.abspath(__file__))
 load_dotenv(os.path.join(WORKING_DIR, '.env'))
 
 # Put your name here
-NAME = ""
+NAME = "Amelia"
 DESC = "This is a simple web app. It showcases some functions with Python Flask. It is built with Flask and " \
        "Bootstrap CSS"
 SECRET_KEY = os.getenv('SECRET_KEY')
